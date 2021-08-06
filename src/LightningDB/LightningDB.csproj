@@ -1,17 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Description>LightningDB</Description>
+    <Description>LightningDB - vendored package for Akka.NET only up until a new official one is published.</Description>
     <VersionPrefix>0.13.0</VersionPrefix>
-    <Authors>Ilya Lukyanov;Corey Kaylor</Authors>
+    <Authors>Ilya Lukyanov;Corey Kaylor;</Authors>
     <TargetFrameworks>netstandard2.0;netcoreapp3.1;net5.0</TargetFrameworks>
     <AssemblyName>LightningDB</AssemblyName>
-    <PackageId>LightningDB</PackageId>
+    <PackageId>LightningDB.Vendored.Akka</PackageId>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageTags>lmdb;lightning;storage;persistance;key-value;nosql</PackageTags>
     <PackageProjectUrl>https://github.com/CoreyKaylor/Lightning.NET</PackageProjectUrl>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageVersion>0.14.0</PackageVersion>
+    <Title>LightningDB.Vendored.Akka</Title>
   </PropertyGroup>
   
   <ItemGroup>
